@@ -1,8 +1,12 @@
 import Header from "./components/Header/Header"
+import ArticleList from "./components/ArticleList/ArticleList"
 
 const App = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <ArticleList />
+    </>
   )
 }
 
