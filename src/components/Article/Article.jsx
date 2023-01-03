@@ -1,6 +1,6 @@
 const Article = ({ title, text, tags, image }) => {
 
-    return <div className="p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-xl flex flex-col items-center gap-2 sm:hover:shadow-gray-500 sm:hover:dark:shadow-black sm:hover:shadow-lg">
+    return <div className="alura-card">
 
         <h1 className="mb-2 text-xl text-alura-200 dark:text-gray-200 font-bold">{title}</h1>
         <div className="w-full pr-5 flex gap-2 justify-end">
